@@ -54,6 +54,8 @@ streamlit run streamlit_app.py
 
 ### 📁 Project Structure
 
+```
+
 inventory_sales/                   <-- Root folder
 │
 ├── app/                           <-- Streamlit app and trained model
@@ -71,4 +73,4 @@ inventory_sales/                   <-- Root folder
 └── README.md                      <-- Project overview and instructions
 
 
----
+```
