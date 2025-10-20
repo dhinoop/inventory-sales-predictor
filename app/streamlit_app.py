@@ -4,11 +4,18 @@ import numpy as np
 import joblib
 from datetime import datetime
 import holidays
+import os
 
 # -------------------------------------------------------------
 # Load dataset (for reference and to populate dropdowns)
 # -------------------------------------------------------------
-data = pd.read_csv('inventory.csv')
+
+
+BASE_DIR = os.path.dirname(__file__)
+data_path = os.path.join(BASE_DIR, 'inventory.csv')
+data = pd.read_csv(data_path)
+
+
 store_ids = sorted(data['store'].unique())
 item_ids = sorted(data['item'].unique())
 
