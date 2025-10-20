@@ -4,6 +4,12 @@ A Streamlit web app that predicts product sales for different stores based on da
 
 ---
 
+## 🚀 Live Demo
+
+You can try the app online here:  
+[**Inventory Sales Predictor - Streamlit App**](https://share.streamlit.io/<your-username>/inventory-sales-predictor/main/app/streamlit_app.py)
+
+---
 ## 🚀 Features
 - Predicts sales using a trained **XGBoost Regressor**
 - Takes inputs for **Store ID**, **Item ID**, and **Date**
