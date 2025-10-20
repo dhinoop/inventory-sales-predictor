@@ -8,7 +8,7 @@ import holidays
 # -------------------------------------------------------------
 # Load dataset (for reference and to populate dropdowns)
 # -------------------------------------------------------------
-data = pd.read_csv('../dataset/inventory.csv')
+data = pd.read_csv('inventory.csv')
 store_ids = sorted(data['store'].unique())
 item_ids = sorted(data['item'].unique())
 
