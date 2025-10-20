@@ -22,7 +22,10 @@ item_ids = sorted(data['item'].unique())
 # -------------------------------------------------------------
 # Load trained model
 # -------------------------------------------------------------
-model = joblib.load('model.pkl')
+BASE_DIR = os.path.dirname(__file__)
+MODEL_PATH = os.path.join(BASE_DIR, 'model.pkl')
+
+model = joblib.load(MODEL_PATH)
 
 # -------------------------------------------------------------
 # Streamlit Page Configuration
